@@ -1,0 +1,67 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.allButFooter{
+    min-height: calc(100vh - 70px);
+}
+
+h1{
+    background-color: rgb(216, 244, 244);
+    padding: 20px;
+    text-align: center;
+}
+
+.inner-div{
+    margin: 2rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.left-div{
+    margin-right: 2rem;
+    width: 50%;
+}
+
+.right-div{
+    margin-left: 2rem;
+    width: 50%;
+}
+
+p{
+    font-size: 1.2rem;
+    margin: 1rem auto;
+    font-weight: 600;
+}
+
+button{
+    background-color: rgb(216, 244, 244);
+    padding: .6rem .8rem;
+    border-radius: 5px;
+    border: none;
+    margin-top: 20px;
+    font-size: 1rem;
+}
+
+input, textarea{
+    width: 100%;
+    padding: .4rem;
+}
+
+#inputbox input{
+    display: block;
+    margin-bottom: 1rem;
+}
+
+.footer{
+    height: 70px;
+    display: flex;
+    background-color: rgb(216, 244, 244);
+}
+
+.footer span{
+    font-size: 1.5rem;
+}

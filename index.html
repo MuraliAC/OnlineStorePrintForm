@@ -1,0 +1,55 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Store</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="allButFooter">
+        <h1>Online Store</h1>
+        <div class="inner-div">
+            <div class="left-div">
+                <p>First Name</p>
+                <input type="text">
+                <p>Last Name</p>
+                <input type="text">
+                <p>Email</p>
+                <input type="email">
+                <p>Phone Number</p>
+                <input type="text">
+                <p>Select City</p>
+                <select name="" id="city" onchange="handleChange()">
+                    <option value="Chennai">Chennai</option>
+                    <option value="Coimbatore">Coimbatore</option>
+                    <option value="Madurai">Madurai</option>
+                    <option value="Salem">Salem</option>
+                    <option value="Tiruchirappalli">Tiruchirappalli</option>
+                    <option value="Thoothukudi">Thoothukudi</option>
+                </select>
+                <p>Address</p>
+                <textarea name="" id="" cols="30" rows="10"></textarea>
+                <button onclick="print()">Print</button>
+            </div>
+
+            <div class="right-div">
+                <p>Items List</p>
+                <div id="inputbox"></div>
+            </div>
+            
+            
+        </div>
+        
+    </div>
+
+    <footer class="footer">
+        <p>Developed by <span>Murali A C</span></p>
+    </footer>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
